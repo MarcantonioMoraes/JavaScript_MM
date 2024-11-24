@@ -1,0 +1,4 @@
+let nome = "Marcos!"
+const idade = "34"
+
+console.log (nome,idade, "anos")
