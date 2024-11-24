@@ -1,37 +1,35 @@
-let nome = "Marcos"
-const idade = 34
-var cidade = "Recife"
-let hobby = "Animes"
-let temcarteira= true
-const a = 10
-const b = 3
-const x = 5
-const y = "5"
+let nota=7
+let dia=3
 
-console.log ("Soma:",a+b,)
-console.log("Subtrair:",a-b,)
-console.log("Dividir:",a/b,)
-console.log("Multiplicar:",a*b,)
-console.log("Resto:",a%b,)
-console.log(x==y)
-console.log(x===y)
-console.log(x!=y)
-console.log(x>y)
-console.log(x<y)
-console.log(x<=y)
-console.log(x>=y)
+if (nota>=7){
+    console.log("Aprovado!")
+}else if (nota>=5){
+    console.log("Recuperação!")
+}else{
+    console.log("Reprovado!")
+}
 
-console.log ("Olá,",nome,"! Você mora em ",cidade,", você tem ",idade," anos e você gosta de ",hobby,'!')
-
-console.log(idade>="18"&&temcarteira)
-console.log(idade<"18"||temcarteira)
-console.log(!temcarteira)
-
-console.log("Minha idade é maior que 18 anos?",idade>"18",)
-console.log("Minha idade é menor que 18 anos?",idade!="18",)
-console.log("Minha idade é menor que 18 anos?",idade<"18",)
-console.log("Minha idade é menor que 18 anos?",idade!="35",)
-
-
+switch(dia){
+    case 1:
+        console.log("")
+        break
+        case 1:
+            console.log("Segunda!")
+            break
+        case 2:
+            console.log("Terça!")
+            break
+        case 3:
+            console.log("Quarta!")
+            break 
+        case 4:
+            console.log("Quinta!")
+            break            
+        case 5:
+            console.log("Sexta!")
+            break
+        default:
+            console.log("Final de Semana!")      
+}
 
 
