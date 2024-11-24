@@ -1,4 +1,11 @@
-let nome = "Marcos!"
-const idade = "34"
+let nome = "Marcos"
+const idade = 34
+var cidade = "Recife"
+let hobby = "Animes"
+let temcarteira= true
+const a = 10
+const b = 3
+const x = 5
+const y = "5"
 
-console.log (nome,idade, "anos")
+
