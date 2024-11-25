@@ -12,3 +12,5 @@ console.log(resultado(42))
 console.log(resultado(13))
 
 
+
+
