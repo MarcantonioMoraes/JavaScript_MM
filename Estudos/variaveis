@@ -76,4 +76,21 @@ for(let i=1; i<= 4; i++){
     }
 }
 
+function digaola(){
+    console.log("Olá, Marcos!")
+}
+digaola()
+
+function saudacao(nome){
+    console.log("Olá",nome,"!!!")
+}
+saudacao("Marcantonio")
+
+function soma(a,b){
+    return a+b
+}
+let resultado = soma(5,3)
+console.log("A soma é:",resultado,)
+
+
 
