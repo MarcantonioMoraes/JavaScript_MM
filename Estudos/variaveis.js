@@ -93,4 +93,17 @@ let resultado = soma(5,3)
 console.log("A soma é:",resultado,)
 
 
+function resultadoo (a){
+if (a%2===0){
+    console.log("O número",a,"é PAR!!")
+}else{
+    console.log("O número",a,"é IMPAR!!!")
+    }
+}
+      
+console.log(resultadoo(2))
+console.log(resultadoo(17))
+console.log(resultadoo(42))
+console.log(resultadoo(13))
+
 
