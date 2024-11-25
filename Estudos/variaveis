@@ -7,6 +7,9 @@ const a = 10
 const b = 3
 const x = 5
 const y = "5"
+let nota=7
+let dia=3
+let contador=1
 
 console.log ("Soma:",a+b,)
 console.log("Subtrair:",a-b,)
@@ -24,5 +27,46 @@ console.log(x>=y)
 console.log("A soma de A+B é maior que 15 e o resto e igual a zero?",a+b>"15"&&a%b==0,)
 console.log("Qual a sua idade?",idade,"anos")
 console.log("Você pode dirigir?",idade>=18&&temcarteira)
+
+if (nota>=7){
+    console.log("Aprovado!")
+}else if (nota>=5){
+    console.log("Recuperação!")
+}else{
+    console.log("Reprovado!")
+}
+
+switch(dia){
+    case 1:
+        console.log("")
+        break
+        case 1:
+            console.log("Segunda!")
+            break
+        case 2:
+            console.log("Terça!")
+            break
+        case 3:
+            console.log("Quarta!")
+            break 
+        case 4:
+            console.log("Quinta!")
+            break            
+        case 5:
+            console.log("Sexta!")
+            break
+        default:
+            console.log("Final de Semana!")      
+}
+
+for (let i=0; i<=5; i++){
+    console.log("Número",i,)
+}
+
+while (contador<=5){
+    console.log("Contaor:",contador,)
+    contador++
+}
+
 
 
