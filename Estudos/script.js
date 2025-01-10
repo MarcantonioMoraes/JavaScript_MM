@@ -24,10 +24,12 @@ let a=6
 let b=4
 let c=24
 let d=54
+let nota=8
 let temfilhos=true
 let quantosfilhos=2
 let temcarteira=true
 let casado=true
+let pessoa=1
 
 console.log ("eu me chamo",nome,"tnho",idade,"nasci no mês de",mes,"moro na rua",rua,"filho de",mae,"e de ",pai,"casado com",esposa," e pai de",f1,"e",f2,". A diferença da minha idade com a da minha esposa é",idade%idesposa,"anos.")
 
@@ -46,4 +48,36 @@ console.log(c<=a+b)
 console.log(casado&&quantosfilhos>1)
 console.log(!casado )
 console.log(!casado||!temfilhos)
+console.log(c/a<=6&&c%a==0)
+
+if(nota>=7){
+  console.log("Aprovado")
+} else if (nota>=5){
+  console.log("Recuperação")
+}else{
+  console.log("Reprovado")
+}
+
+if(quantosfilhos==2){
+  console.log("Thulio e Thalys")
+}else if (quantosfilhos>3){
+  console.log("Raquel sabe disso?")
+}
+else{
+  console.log("Cadê os meninos?")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

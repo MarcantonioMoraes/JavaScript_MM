@@ -24,7 +24,7 @@ console.log(x<y)
 console.log(x<=y)
 console.log(x>=y)
 
-console.log("A soma de A+B é maior que 15 e o resto e igual a zero?",a+b>"15"&&a%b==0,)
+console.log("A soma de A+B é maior que 15 e o resto e igual a zero?",a+b<15&&a%b==1,)
 console.log("Qual a sua idade?",idade,"anos")
 console.log("Você pode dirigir?",idade>=18&&temcarteira)
 
