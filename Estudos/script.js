@@ -50,6 +50,7 @@ console.log(!casado )
 console.log(!casado||!temfilhos)
 console.log(c/a<=6&&c%a==0)
 
+
 if(nota>=7){
   console.log("Aprovado")
 } else if (nota>=5){
