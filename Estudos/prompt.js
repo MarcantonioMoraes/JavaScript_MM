@@ -1,10 +1,9 @@
-const readline = require('readline');
+function repetirPalavra(palavra, vezes) {
+  for (let i = 0; i < vezes; i++) {
+      console.log(palavra);
+  }
+}
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
-
-rl.question('Qual o seu nome? ', (name) => {
-  console.log(`Olá, ${name}!`);
-});
+// Exemplo de uso:
+repetirPalavra("Olá", 5);
+repetirPalavra("Vida", 2);
