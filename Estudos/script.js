@@ -96,10 +96,32 @@ while (a>=0){
   a--;
 }
 
+function impapar (i){
+  if (i%2==0){
+      console.log("O número",i,"é Par")
+  }
+  else {
+      console.log("O número",i,"é impar")
+  }
+}
+for (let w=0;w<=5;w++){
+  if (w%2==0){
+      console.log("O número",w,"é Par")
+  }
+  else {
+      console.log("O número",w,"é impar")
+  }
+}
 
+impapar(6)
+impapar(1)  
 
-
-
+function repetirPalavra (palavra,vezes){
+  for (let a=1;a<=vezes;a++){
+      console.log(palavra)
+  }
+}
+repetirPalavra ("Amor",3)
 
 
 
