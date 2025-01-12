@@ -4,6 +4,7 @@ let pessoa = {
     nome: "Marcantonio", idade:34, cidade: "Recife"
 };
 
+
 //push	(Adiciona no final.)
 // frutas.push("Manga");
 //unshift	(Adiciona no início.)
