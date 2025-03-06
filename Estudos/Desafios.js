@@ -3,6 +3,7 @@ let removido = frutas.pop();
 let pessoa = {
     nome: "Marcantonio", idade:34, cidade: "Recife"
 };
+11111
 
 
 //push	(Adiciona no final.)
