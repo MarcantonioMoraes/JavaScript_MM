@@ -8,18 +8,44 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
-            background-color: #f0f0f0;
+            background-color: #121212;
+            color: #e0e0e0;
         }
         header {
             text-align: center;
             margin-bottom: 40px;
         }
         .projeto {
-            background: #ffffff;
+            background: #1e1e1e;
             padding: 20px;
             margin-bottom: 20px;
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+        }
+        code {
+            display: block;
+            background: #2d2d2d;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            white-space: pre-wrap;
+        }
+        input, button {
+            margin-top: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 5px;
+        }
+        button {
+            background-color: #4caf50;
+            color: white;
+            cursor: pointer;
+        }
+        #resultado {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #00e676;
         }
     </style>
 </head>
@@ -37,8 +63,37 @@ print("Olá, mundo!")
             </code></pre>
         </section>
 
-        <!-- Aqui você pode copiar e colar mais <section> conforme for criando novos projetos -->
+        <section class="projeto">
+            <h2>Projeto 2: Calculadora Simples (Python)</h2>
+            <pre><code>
+numero1 = int(input("Digite o primeiro número: "))
+numero2 = int(input("Digite o segundo número: "))
+soma = numero1 + numero2
+print("A soma é:", soma)
+            </code></pre>
+        </section>
 
+        <section class="projeto">
+            <h2>Projeto 3: Calculadora Simples (No Site)</h2>
+
+            <input type="number" id="numero1" placeholder="Digite o primeiro número">
+            <input type="number" id="numero2" placeholder="Digite o segundo número">
+            <button onclick="calcular()">Somar</button>
+
+            <div id="resultado"></div>
+        </section>
     </main>
+
+    <script>
+        function calcular() {
+            var num1 = parseFloat(document.getElementById('numero1').value);
+            var num2 = parseFloat(document.getElementById('numero2').value);
+            var soma = num1 + num2;
+            document.getElementById('resultado').innerText = "Resultado: " + soma;
+        }
+    </script>
 </body>
 </html>
+
+
+
