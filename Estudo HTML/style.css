@@ -1,0 +1,48 @@
+.foto-perfil{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 30%; /* Deixa a imagem redonda */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #121212;
+    background-position: center; /* Centraliza */
+    color: #d1cfcf;
+    margin: 10;
+    padding: 200px;
+    
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+section {
+    background: #1e1e1e;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
