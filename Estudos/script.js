@@ -31,7 +31,7 @@ let temcarteira=true
 let casado=true
 let pessoa=2
 
-console.log ("eu me chamo",nome,"tnho",idade,"nasci no mês de",mes,"moro na rua",rua,"filho de",mae,"e de ",pai,"casado com",esposa," e pai de",f1,"e",f2,". A diferença da minha idade com a da minha esposa é",idade%idesposa,"anos.")
+console.log ("eu me chamo",nome,"tenho",idade,"nasci no mês de",mes,"moro na rua",rua,"filho de",mae,"e de ",pai,"casado com",esposa," e pai de",f1,"e",f2,". A diferença da minha idade com a da minha esposa é",idade%idesposa,"anos.")
 
 console.log(a+c)
 console.log(d-b)
